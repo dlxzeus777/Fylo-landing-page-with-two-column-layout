@@ -23,4 +23,4 @@ Your users should be able to:
 
 ## Live site URL:
 
--
+- https://dlxzeus777.github.io/Fylo-landing-page-with-two-column-layout/
