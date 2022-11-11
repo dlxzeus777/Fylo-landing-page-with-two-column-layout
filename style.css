@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-texts
+{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    gap: 2.5rem;
+}
+header{
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    width: 95%;
+    align-items: center;
+    padding: 10px 0;
+}
+.section-container
+{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 8rem;
+    width: 95%;
+}
+.hero-img img{
+    max-width: 100%;
+}
+h2{
+    font-size: 2.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+#text
+{
+    padding: .5rem 1rem;
+}
+.btn
+{
+    padding: .5rem 1.5rem;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper
+{
+    position: relative;
+    background-color: hsl(240, 75%, 98%);
+}
+.wave
+{
+    height: 132px;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.card
+{
+    width: 15rem;
+    background-color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12rem;
+    border-radius: 7px;
+}
+.card-text{
+    font-size: .9rem;
+}
+.avatar-text
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.img-avatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.name{
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+}
+.name p{
+    margin: 0;
+}
+.section-container:nth-child(2)
+{
+    padding-bottom: 8rem;
+    margin-bottom: 0;
+    width: 95%;
+}
+.section2
+{
+    margin-bottom: 0;
+    padding-bottom: 8rem;
+}
+.fylo-works
+{
+    color: rgb(20, 182, 20);
+}
+.arrow-fylo
+{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    border-bottom: 2px solid green;
+    width: fit-content;
+    margin-bottom: 1.5rem;
+}
+.arrow-img img{
+    height: 25px;
+}
+.arrow-img{
+    display: flex;
+    align-items: center;
+}
+.img-avatar
+{
+    display: flex;
+    align-items: center;
+}
+.early-access
+{
+    background-color: hsl(238, 22%, 44%);
+    padding: 5rem 0;
+}
+h3{
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.early-access-container
+{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 12rem;
+    width: 95%;
+}
+.early-texts
+{
+    width: 100%;
+}
+.early-btn
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.early-btn input{
+    width: 50%;
+    padding: .5rem 0;
+    text-indent: 10px;
+}
+.early-btn button{
+    padding: .5rem .5rem;
+}
+.btn{
+    color: white;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    padding: .6rem 1rem;
+    border-radius: 5px;
+}
+.early-p
+{
+    color: hsl(0, 0%, 75%);
+}
+.footer-container
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 4rem 0;
+    width: 95%;
+}
+i:hover{
+    color: hsl(224, 93%, 58%);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+footer
+{
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer-container p:hover{
+    color: hsl(224, 93%, 58%);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.footer-img img{
+    filter: invert(100%);
+}
+.icons{
+    display: flex;
+    gap: 2rem;
+}
+.btn:hover{
+    background-color: hsl(224, 91%, 65%);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.header-texts p:hover
+{
+    color: rgb(146, 18, 18);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.fylo-works:hover
+{
+    color: lightgreen;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.founder
+{
+    font-weight: normal;
+}
